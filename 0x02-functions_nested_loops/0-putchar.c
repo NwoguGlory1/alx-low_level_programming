@@ -1,12 +1,12 @@
 #include 'main h'
 /**
- * main- Entyry point
+ * main- Entry point
  * Description: 'prints _putcher to stdout'
  * Return; always 0
  */
 int main(void)
 {
-	_putchar(_)
+	_putchar(_);
 	_putcher(p);
 	_putcher(u);
 	_putcher(t);
@@ -16,3 +16,4 @@ int main(void)
 	_putcher(r);
 	_putcher('\n');
 	return (0);
+}
