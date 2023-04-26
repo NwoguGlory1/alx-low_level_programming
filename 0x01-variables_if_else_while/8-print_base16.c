@@ -8,7 +8,7 @@
 
 int main(void)
 {
-int low_base16;
+int low_base16 = '0';
 while (low_base16 <= '9')
 {
 putchar(low_base16);
