@@ -10,6 +10,7 @@ void times_table(void)
 	int a, b, op;
 
 	for (a = 0; a <= 9; a++)
+	{
 
 		_putchar(48); /**print digit 0 on ist row of the table.48=0 ASCII */
 
@@ -27,8 +28,9 @@ void times_table(void)
 			{
 				_putchar((op / 10) + 48);
 				_putchar((op % 10) + 48);
+			}
 	}
 	_putchar('\n');
-	}
 
+	}
 }
