@@ -6,12 +6,12 @@
  */
 void times_table(void)
 {
-/** iterate the first numbers, from 0 using variable a, andfor each value of a, iterate through the next 9 numbers from 1 and store the product of a and b in op */
+/** iterate ist nos a from 0till 9 and iterates for each value of a as as b */
 	int a, b, op;
 
 	for (a = 0; a <= 9; a++)
 
-		_putchar(48); /** print digit 0 on the first row of the multipliaction table and this is before first value of b. 48 is 0 in ASCII */
+		_putchar(48); /**print digit 0 on ist row of the table.48=0 ASCII */
 
 	for (b = 1; b <= 9; b++)
 	{
