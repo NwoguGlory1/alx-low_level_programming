@@ -4,10 +4,11 @@
 
 /**
  * print_numbers- function that prints numbers
- * separator: string to be printed between numbers
+ * @separator: string to be printed between numbers
  * @n: number of integers passed to the function
  * @...: A variable number of paramters to calculate the sum of.
- * Return:If n == 0 - 0.
+ *
+ * Return: If n == 0 - 0.
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -21,8 +22,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(nums, int));
 
-	if (index != (n - 1) && separator != NULL)
-		printf("%s", separator);
+		if (index != (n - 1) && separator != NULL)
+			printf("%s", separator);
 	}
 
 	printf("\n");
