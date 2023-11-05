@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
  * more_numbers -  function that prints 0 to 14 ten times
  * followed by a new line.
  * Return: void
- *
  */
 void more_numbers(void)
 {
