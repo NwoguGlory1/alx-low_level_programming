@@ -11,6 +11,8 @@ undefine RM
 all: $(OBJ)
 	 $(CC) $(OBJ) -o $(NAME)
 
+$(OBJ): $(HEADER)
+
 clean:
 	$(RM) *~ $(NAME)
 
