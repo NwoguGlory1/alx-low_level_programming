@@ -16,7 +16,7 @@ void print_array(int *array, int min, int max)
 		printf("%d, ", array[i]);
 		/** prints ith element comma & space*/
 	printf("%d\n", array[i]);
-	/** prints the last elemeent at max -1*/
+	/** prints the last elemeent at max - 1*/
 }
 
 /**
@@ -48,11 +48,11 @@ int binary_search(int *array, size_t size, int value)
 
 		if (array[mid] < value)
 		{
-			j = mid - 1;
+			i = mid + 1;
 		}
 		else if (array[mid] > value)
 		{
-			i = mid + 1;
+			j = mid - 1;
 		}
 		else
 		{
